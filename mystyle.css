@@ -1,0 +1,58 @@
+.container, nav, section, aside,footer{
+    margin: 0;
+    padding: 0;
+    outline: 1px solid red;
+}
+
+.container{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*
+header{
+    height: 1200px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/24/Sullivans-island-1050x777.jpg);
+    background-size: 100%;
+    clear: both;
+    text-align: center;
+}
+*/
+header{
+    height: 1200px;
+    background: radial-gradient(circle, red, orange, red);
+    clear: both;
+    text-align: center;
+}
+
+
+nav{
+    height: 45px;
+}
+
+section{
+    width: 75%;
+    height: 400px;
+    float: left;
+}
+
+aside{
+    width: 20%;
+    height: 400px;
+    float: left;
+}
+footer{
+    width: 85%;
+    height: 100px;
+    clear: both;
+}
+
+h1{
+    font-family: 'Candal', sans-serif;
+    font-size: 3em;
+    color: #FFF;
+    position: relative;
+    left: 250px;
+    top: 100px;
+    
+}
